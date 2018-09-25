@@ -1,0 +1,495 @@
+body
+{
+    margin: 0;
+    padding: 0;
+}
+*::selection
+{
+    background: #76c38f;
+}
+.heroSection
+{
+    padding-top: 43px;
+    padding-bottom: 50px;
+    width: 100%;
+    height: auto;
+    min-height: 600px;
+    background-color: #290000;
+    border-top: 5px solid #76c38f;
+    box-sizing: border-box
+}
+.heroSection .container
+{
+    width: 960px;
+    height: auto;
+    margin: 0 auto;
+    min-height: 600px;
+    background-color: #290000
+}
+.heroSection .container nav
+{
+    width: 100%;
+    height: auto;
+}
+.heroSection .container nav .menuBar
+{
+    float: right
+}
+.heroSection .container nav .menuBar ul
+{
+    list-style-type: none;
+    text-align: center
+}
+.heroSection .container nav .menuBar ul li
+{
+/*    margin-left: 40px;*/
+    display: inline-block;
+    text-align: center
+}
+.heroSection .container nav .menuBar ul li a
+{
+    text-decoration: none;
+    color: #fff;
+    font-size: 13px;
+    font-family: 'EB Garamond', serif;
+    padding: 13px 20px;
+    border-radius: 10px;
+    transition: 0.3s
+}
+.heroSection .container nav .menuBar ul li:last-child a
+{
+    
+}
+.heroSection .container nav .menuBar ul li a:hover
+{
+    background: #76c38f;
+     transition: 0.3s
+}
+.heroSection .container nav .logo
+{
+    float: left
+}
+.clear
+{
+    clear: both
+}
+.heroSection .container .box
+{
+    width: 100%;
+    height: auto;
+}
+.heroSection .container .box .leftDesc
+{
+    padding-top: 130px;
+    padding-left: 60px;
+    padding-right: 95px;
+    float: left;
+    text-align: center;
+    box-sizing: border-box
+}
+.heroSection .container .box .leftDesc h2
+{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    width: 300px;
+    font-size: 46px;
+    text-align: left;
+    color: #fff;
+}
+.heroSection .container .box .leftDesc p
+{
+    margin-top: 30px;
+    width: 320px;
+    height: auto;
+    color: #fff;
+    text-align: left
+}
+.heroSection .container .box .leftDesc a
+{
+    padding: 12px 17px;
+    border-radius: 10px;
+    text-decoration: none;
+    float: left;
+    color: #fff;
+    cursor: pointer;
+    font-size: 13px;
+    transition: 0.3s
+}
+.heroSection .container .box .leftDesc a:hover
+{
+    background: #76c38f;
+    transition: 0.3s
+    
+}
+.heroSection .container .box .imgRight
+{
+    margin-right: 60px;
+    margin-top: 35px;
+    float: right;
+    font-size: 46px;
+    width: 380px;
+    height: 380px;
+    border: 25px solid #6b6b6b;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 270px;
+    background: #333333;
+    color: #fff;
+    box-sizing: border-box
+}
+/* ------section B------*/
+.serviceSection
+{
+    width: 100%;
+    padding-bottom: 60px;
+    height: auto;
+    background: #660000;
+    box-sizing: border-box
+}
+.serviceSection .container
+{
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    min-height: 500px;
+    background: #660000;
+    box-sizing: border-box;
+}
+.serviceSection .container .serviceTitle
+{
+    padding-top: 60px;
+    width: 100%;
+    height: auto;
+    box-sizing: border-box
+}
+.serviceSection .container .serviceTitle .subserviceTitle
+{
+    display: inline-block;
+    width: 23.4%;
+    height: 305px;
+    float: left;
+    background: #fff;
+    text-align: center;
+    cursor: pointer;
+    margin-left: 20px;
+    overflow: hidden;
+    box-sizing: border-box
+}
+.serviceSection .container .serviceTitle .subserviceTitle:hover
+{
+    background: #76c38f;
+}
+.serviceSection .container .serviceTitle .subserviceTitle:hover h3
+{
+    color: #fff
+}
+.serviceSection .container .serviceTitle .subserviceTitle:hover p
+{
+    color: #fff
+}
+.serviceSection .container .serviceTitle .subserviceTitle:hover span
+{
+    background-color: #fff
+}
+.serviceSection .container .serviceTitle .subserviceTitle:first-child
+{
+    margin-left: 0px;
+}
+.serviceSection .container .serviceTitle .subserviceTitle span
+{
+    display: inline-block;
+    width: 120px;
+    height: 120px;
+    margin-top: 22px;
+    margin-right: 52px;
+    margin-left: 52px;
+    text-align: center;
+    font-weight: bold;
+    line-height: 80px;
+    background-color: #333333;
+}
+.serviceSection .container .serviceTitle .subserviceTitle span h5
+{
+    
+}
+.serviceSection .container .serviceTitle .subserviceTitle h3
+{
+    font-size: 32px;
+    margin-top: 12px;
+    margin-bottom: 15px;
+    color: #333333
+}
+.serviceSection .container .serviceTitle .subserviceTitle p
+{
+    font-size: 12px;
+    margin-top: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    color: #979797
+}
+.serviceSection .container .lastWork
+{
+    display: grid;
+    grid-template-columns: 355px 250px 355px;
+    padding-top: 45px;
+    margin: 0 auto
+}
+.serviceSection .container .lastWork .leftLine
+{
+    margin-top: 33.5px;
+    width: 100%;
+    height: 3px;
+    background-color: #303030
+}
+.serviceSection .container .lastWork .rightLine
+{
+    margin-top: 33.5px;
+    width: 100%;
+    height: 3px;
+    background-color: #303030
+}
+.serviceSection .container .lastWork section h2
+{
+    margin: 0 auto;
+    color: #fff;
+    line-height: 70px;
+    width: 250px;
+    height: 70px;
+    background: #333333;
+    border-radius: 10px;
+    font-size: 28px;
+    text-align: center;
+}
+.serviceSection .container .gridImg
+{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-auto-rows: 1fr 1fr;
+    grid-gap: 30px;
+    margin-top: 32px;
+}
+.serviceSection .container .gridImg .subGridImg
+{
+    border: 7px solid #fff;
+}
+.serviceSection .container .gridImg .subGridImg .imgBox
+{
+    width: 100%;
+    height: auto;
+    min-height: 160px;
+    font-size: 18px;
+    text-align: center;
+    line-height: 160px;
+    box-sizing: border-box;
+    background-color: #353535;
+    transition: 0.2s;
+}
+.serviceSection .container .gridImg .subGridImg h3
+{
+    width: 100%;
+    height: 28px;
+    background-color: #151515;
+    margin-top: 0px;
+    margin-bottom: 0;
+    line-height: 30px;
+    color: #fff;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: center;
+    transition: 0.2s;
+    align-self: center
+}
+.serviceSection .container .gridImg .subGridImg:hover .imgBox
+{
+    cursor: pointer;
+    transform: scaleY(1.17);
+    transform-origin: top;
+    transition: 0.2s;
+}
+.serviceSection .container .gridImg .subGridImg:hover h3
+{
+    cursor: pointer;
+    transform-origin: top;
+    transform: scaleY(0);
+    transition: 0.2s
+}
+.contactSection
+{
+    width: 100%;
+    padding-top: 40px;
+    padding-bottom: 60px;
+    height: auto;
+    background: #303030;
+    box-sizing: border-box
+}
+.contactSection .container
+{
+    margin: 0 auto;
+    width: 960px;
+    height: auto;
+    min-height: 500px;
+    background: #303030;
+    box-sizing: border-box;
+}
+.contactSection .container section .divWidth
+{
+    width: 25%;
+    height: auto;
+    float: left;
+    padding-right: 20px;
+    box-sizing: border-box
+}
+.contactSection .container section h3
+{
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+    font-weight: normal;
+}
+.contactSection .container section p
+{
+    color: #979797;
+    font-size: 13px;
+    ;line-height: 20px; 
+}
+
+/*
+.contactSection .container section .blogDiv h3
+{
+    margin-top: 0;
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+*/
+.contactSection .container section .blogDiv h4
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #76c38f;
+    font-size: 13px;
+    font-weight: bold
+}
+.contactSection .container section .blogDiv a
+{
+    color: #76c38f;
+    text-decoration: none
+}
+.contactSection .container section .blogDiv a
+{
+    font-size: 10px;
+}
+
+.contactSection .container section .blogDiv .admin
+{
+    margin-top: 16px;
+    margin-bottom: 16px;
+    display: inline-block;
+    color: #666;
+    font-size: 10px;
+}
+.contactSection .container section .blogDiv .date
+{
+    margin-top: 0;
+    margin-bottom: 0;
+    color: #979797;
+    font-size: 10px;
+}
+.contactSection .container section .blogDiv p
+{
+/*
+    color: #979797;
+    font-size: 13px;
+*/
+}
+.contactSection .container section .blogDiv .readMe
+{
+    font-size: 13px;
+}
+.contactSection .container section .quickLink
+{
+    color: #979797
+}
+.contactSection .container section .quickLink span.first
+{
+    display: inline-block;
+    padding: 0px 0 0px 0;
+    width: 100%;
+    border-bottom: 1px solid #979797
+}
+.contactSection .container section .quickLink span
+{
+    display: inline-block;
+    padding: 10px 0 0px 0;
+    width: 100%;
+    border-bottom: 1px solid #979797
+}
+.contactSection .container section .quickLink a
+{
+    display: inline-block;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #76c38f;
+    margin-left: 20px;
+}
+.contactSection .container section .latestTweets a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: #76c38f;
+}
+.contactUs
+{
+    
+}
+.contactUs input{
+    margin-bottom: 10px;
+    padding: 12px 10px;
+    width: 100%;
+    height: 35px;
+    box-sizing: border-box;
+    background-color: #222;
+    color: #989898;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+}
+.contactUs textarea{
+    margin-bottom: 10px;
+    padding: 12px 10px;
+    width: 100%;
+    height: 80px;
+    resize: none;
+    background-color: #222;
+    color: #989898;
+    border: none;
+    outline: none;
+    border-radius: 10px;
+    font-size: 13px;
+    letter-spacing: 1px;
+    box-sizing: border-box;
+}
+.contactUs input[type=submit]{
+    padding: 12px 10px;
+    width: 75px;
+    height: 35px;
+    background-color: #76c38f;
+    color: #303030;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+    font-weight: bold;
+    font-size: 12px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    box-sizing: border-box;
+}
+.contactUs input[type=submit]:hover{
+        background-color: #a0a0a0;
+        color: #000;
+}
